@@ -345,10 +345,8 @@ address {
   width: calc((100% - 4 * 24) / 6);
 }
 
-.specialist-position {
+.specialist-position-portfolio {
   padding: 32px 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
