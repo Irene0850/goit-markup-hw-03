@@ -71,6 +71,13 @@ img {
   margin-right: 76px;
 }
 
+.title-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2e2f42;
+}
+
 .menu-title-studio {
   display: flex;
   gap: 40px;
@@ -168,9 +175,10 @@ address {
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
+  cursor: pointer;
 }
 
 .title-button:hover,
@@ -322,7 +330,6 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
 }
 
 .app-ideas {
@@ -338,7 +345,8 @@ address {
 }
 
 .specialist-position {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
